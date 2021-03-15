@@ -1,0 +1,1402 @@
+0 silly input []
+1 silly flags {
+1 silly flags   _: [ 'bootstrap' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   args: []
+1 silly flags }
+2 verbose rootPath /home/ali/asure-dapp
+3 info version 2.11.0
+4 silly existsSync /home/ali/asure-dapp/VERSION
+5 info versioning independent
+6 silly initialize attempt
+7 silly npmConfig {
+7 silly npmConfig   registry: undefined,
+7 silly npmConfig   npmClient: undefined,
+7 silly npmConfig   npmClientArgs: undefined,
+7 silly npmConfig   mutex: undefined
+7 silly npmConfig }
+8 silly initialize success
+9 silly execute attempt
+10 info Bootstrapping 4 packages
+11 info lifecycle preinstall
+12 silly runScript preinstall io.asure.dapp
+13 silly io.asure.dapp
+14 silly runScript preinstall smartcontracts
+15 silly smartcontracts
+16 silly runScript preinstall dapp
+17 silly dapp
+18 silly runScript preinstall gpcli
+19 silly gpcli
+20 silly hasMatchingDependency dapp smartcontracts
+21 silly hasMatchingDependency gpcli smartcontracts
+22 silly hasDependencyInstalled dapp babel-plugin-import
+23 silly dependencyIsSatisfied [
+23 silly dependencyIsSatisfied   'babel-plugin-import',
+23 silly dependencyIsSatisfied   '^1.8.0',
+23 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+23 silly dependencyIsSatisfied ]
+24 verbose dependencyIsSatisfied babel-plugin-import false
+25 silly hasDependencyInstalled dapp less
+26 silly dependencyIsSatisfied [ 'less', '^3.7.1', '/home/ali/asure-dapp/packages/dapp/node_modules' ]
+27 verbose dependencyIsSatisfied less false
+28 silly hasDependencyInstalled dapp less-loader
+29 silly dependencyIsSatisfied [
+29 silly dependencyIsSatisfied   'less-loader',
+29 silly dependencyIsSatisfied   '^4.1.0',
+29 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+29 silly dependencyIsSatisfied ]
+30 verbose dependencyIsSatisfied less-loader false
+31 silly hasDependencyInstalled dapp react-app-rewired
+32 silly dependencyIsSatisfied [
+32 silly dependencyIsSatisfied   'react-app-rewired',
+32 silly dependencyIsSatisfied   '^1.5.2',
+32 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+32 silly dependencyIsSatisfied ]
+33 verbose dependencyIsSatisfied react-app-rewired false
+34 silly hasDependencyInstalled dapp script-ext-html-webpack-plugin
+35 silly dependencyIsSatisfied [
+35 silly dependencyIsSatisfied   'script-ext-html-webpack-plugin',
+35 silly dependencyIsSatisfied   '^2.1.3',
+35 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+35 silly dependencyIsSatisfied ]
+36 verbose dependencyIsSatisfied script-ext-html-webpack-plugin false
+37 silly hasDependencyInstalled dapp webpack-pwa-manifest
+38 silly dependencyIsSatisfied [
+38 silly dependencyIsSatisfied   'webpack-pwa-manifest',
+38 silly dependencyIsSatisfied   '^3.6.3',
+38 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+38 silly dependencyIsSatisfied ]
+39 verbose dependencyIsSatisfied webpack-pwa-manifest false
+40 silly hasDependencyInstalled dapp antd-mobile
+41 silly dependencyIsSatisfied [
+41 silly dependencyIsSatisfied   'antd-mobile',
+41 silly dependencyIsSatisfied   '^2.2.2',
+41 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+41 silly dependencyIsSatisfied ]
+42 verbose dependencyIsSatisfied antd-mobile false
+43 silly hasDependencyInstalled dapp bip39
+44 silly dependencyIsSatisfied [
+44 silly dependencyIsSatisfied   'bip39',
+44 silly dependencyIsSatisfied   '^2.5.0',
+44 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+44 silly dependencyIsSatisfied ]
+45 verbose dependencyIsSatisfied bip39 false
+46 silly hasDependencyInstalled gpcli bip39
+47 silly dependencyIsSatisfied [
+47 silly dependencyIsSatisfied   'bip39',
+47 silly dependencyIsSatisfied   '^2.5.0',
+47 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/gpcli/node_modules'
+47 silly dependencyIsSatisfied ]
+48 verbose dependencyIsSatisfied bip39 false
+49 silly hasDependencyInstalled dapp connected-react-router
+50 silly dependencyIsSatisfied [
+50 silly dependencyIsSatisfied   'connected-react-router',
+50 silly dependencyIsSatisfied   '^4.3.0',
+50 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+50 silly dependencyIsSatisfied ]
+51 verbose dependencyIsSatisfied connected-react-router false
+52 silly hasDependencyInstalled dapp drizzle
+53 silly dependencyIsSatisfied [
+53 silly dependencyIsSatisfied   'drizzle',
+53 silly dependencyIsSatisfied   '^1.2.2',
+53 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+53 silly dependencyIsSatisfied ]
+54 verbose dependencyIsSatisfied drizzle false
+55 silly hasDependencyInstalled dapp drizzle-react
+56 silly dependencyIsSatisfied [
+56 silly dependencyIsSatisfied   'drizzle-react',
+56 silly dependencyIsSatisfied   '^1.1.1',
+56 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+56 silly dependencyIsSatisfied ]
+57 verbose dependencyIsSatisfied drizzle-react false
+58 silly hasDependencyInstalled dapp drizzle-react-components
+59 silly dependencyIsSatisfied [
+59 silly dependencyIsSatisfied   'drizzle-react-components',
+59 silly dependencyIsSatisfied   '^1.1.0',
+59 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+59 silly dependencyIsSatisfied ]
+60 verbose dependencyIsSatisfied drizzle-react-components false
+61 silly hasDependencyInstalled dapp eth-block-tracker-es5
+62 silly dependencyIsSatisfied [
+62 silly dependencyIsSatisfied   'eth-block-tracker-es5',
+62 silly dependencyIsSatisfied   '^2.3.2',
+62 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+62 silly dependencyIsSatisfied ]
+63 verbose dependencyIsSatisfied eth-block-tracker-es5 false
+64 silly hasDependencyInstalled dapp ethereumjs-tx
+65 silly dependencyIsSatisfied [
+65 silly dependencyIsSatisfied   'ethereumjs-tx',
+65 silly dependencyIsSatisfied   '^1.3.6',
+65 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+65 silly dependencyIsSatisfied ]
+66 verbose dependencyIsSatisfied ethereumjs-tx false
+67 silly hasDependencyInstalled dapp ethereumjs-wallet
+68 silly dependencyIsSatisfied [
+68 silly dependencyIsSatisfied   'ethereumjs-wallet',
+68 silly dependencyIsSatisfied   '^0.6.0',
+68 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+68 silly dependencyIsSatisfied ]
+69 verbose dependencyIsSatisfied ethereumjs-wallet false
+70 silly hasDependencyInstalled gpcli ethereumjs-wallet
+71 silly dependencyIsSatisfied [
+71 silly dependencyIsSatisfied   'ethereumjs-wallet',
+71 silly dependencyIsSatisfied   '0.6.0',
+71 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/gpcli/node_modules'
+71 silly dependencyIsSatisfied ]
+72 verbose dependencyIsSatisfied ethereumjs-wallet false
+73 silly hasDependencyInstalled dapp history
+74 silly dependencyIsSatisfied [
+74 silly dependencyIsSatisfied   'history',
+74 silly dependencyIsSatisfied   '^4.7.2',
+74 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+74 silly dependencyIsSatisfied ]
+75 verbose dependencyIsSatisfied history false
+76 silly hasDependencyInstalled dapp html5-device-mockups
+77 silly dependencyIsSatisfied [
+77 silly dependencyIsSatisfied   'html5-device-mockups',
+77 silly dependencyIsSatisfied   '^3.2.1',
+77 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+77 silly dependencyIsSatisfied ]
+78 verbose dependencyIsSatisfied html5-device-mockups false
+79 silly hasDependencyInstalled dapp ipfs-api
+80 silly dependencyIsSatisfied [
+80 silly dependencyIsSatisfied   'ipfs-api',
+80 silly dependencyIsSatisfied   '^22.2.4',
+80 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+80 silly dependencyIsSatisfied ]
+81 verbose dependencyIsSatisfied ipfs-api false
+82 silly hasDependencyInstalled dapp mobile-detect
+83 silly dependencyIsSatisfied [
+83 silly dependencyIsSatisfied   'mobile-detect',
+83 silly dependencyIsSatisfied   '^1.4.2',
+83 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+83 silly dependencyIsSatisfied ]
+84 verbose dependencyIsSatisfied mobile-detect false
+85 silly hasDependencyInstalled dapp moment
+86 silly dependencyIsSatisfied [
+86 silly dependencyIsSatisfied   'moment',
+86 silly dependencyIsSatisfied   '^2.22.2',
+86 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+86 silly dependencyIsSatisfied ]
+87 verbose dependencyIsSatisfied moment false
+88 silly hasDependencyInstalled gpcli moment
+89 silly dependencyIsSatisfied [
+89 silly dependencyIsSatisfied   'moment',
+89 silly dependencyIsSatisfied   '^2.22.2',
+89 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/gpcli/node_modules'
+89 silly dependencyIsSatisfied ]
+90 verbose dependencyIsSatisfied moment false
+91 silly hasDependencyInstalled dapp prop-types
+92 silly dependencyIsSatisfied [
+92 silly dependencyIsSatisfied   'prop-types',
+92 silly dependencyIsSatisfied   '^15.6.2',
+92 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+92 silly dependencyIsSatisfied ]
+93 verbose dependencyIsSatisfied prop-types false
+94 silly hasDependencyInstalled dapp rc-form
+95 silly dependencyIsSatisfied [
+95 silly dependencyIsSatisfied   'rc-form',
+95 silly dependencyIsSatisfied   '^2.2.1',
+95 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+95 silly dependencyIsSatisfied ]
+96 verbose dependencyIsSatisfied rc-form false
+97 silly hasDependencyInstalled dapp react
+98 silly dependencyIsSatisfied [
+98 silly dependencyIsSatisfied   'react',
+98 silly dependencyIsSatisfied   '^16.4.1',
+98 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+98 silly dependencyIsSatisfied ]
+99 verbose dependencyIsSatisfied react false
+100 silly hasDependencyInstalled dapp react-dom
+101 silly dependencyIsSatisfied [
+101 silly dependencyIsSatisfied   'react-dom',
+101 silly dependencyIsSatisfied   '^16.4.1',
+101 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+101 silly dependencyIsSatisfied ]
+102 verbose dependencyIsSatisfied react-dom false
+103 silly hasDependencyInstalled dapp react-qr-reader
+104 silly dependencyIsSatisfied [
+104 silly dependencyIsSatisfied   'react-qr-reader',
+104 silly dependencyIsSatisfied   '^2.1.0',
+104 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+104 silly dependencyIsSatisfied ]
+105 verbose dependencyIsSatisfied react-qr-reader false
+106 silly hasDependencyInstalled dapp react-qr-svg
+107 silly dependencyIsSatisfied [
+107 silly dependencyIsSatisfied   'react-qr-svg',
+107 silly dependencyIsSatisfied   '^2.1.0',
+107 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+107 silly dependencyIsSatisfied ]
+108 verbose dependencyIsSatisfied react-qr-svg false
+109 silly hasDependencyInstalled dapp react-redux
+110 silly dependencyIsSatisfied [
+110 silly dependencyIsSatisfied   'react-redux',
+110 silly dependencyIsSatisfied   '^5.0.7',
+110 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+110 silly dependencyIsSatisfied ]
+111 verbose dependencyIsSatisfied react-redux false
+112 silly hasDependencyInstalled dapp react-router-dom
+113 silly dependencyIsSatisfied [
+113 silly dependencyIsSatisfied   'react-router-dom',
+113 silly dependencyIsSatisfied   '^4.3.1',
+113 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+113 silly dependencyIsSatisfied ]
+114 verbose dependencyIsSatisfied react-router-dom false
+115 silly hasDependencyInstalled dapp react-scripts
+116 silly dependencyIsSatisfied [
+116 silly dependencyIsSatisfied   'react-scripts',
+116 silly dependencyIsSatisfied   '1.1.4',
+116 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+116 silly dependencyIsSatisfied ]
+117 verbose dependencyIsSatisfied react-scripts false
+118 silly hasDependencyInstalled dapp react-sticky
+119 silly dependencyIsSatisfied [
+119 silly dependencyIsSatisfied   'react-sticky',
+119 silly dependencyIsSatisfied   '^6.0.3',
+119 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+119 silly dependencyIsSatisfied ]
+120 verbose dependencyIsSatisfied react-sticky false
+121 silly hasDependencyInstalled dapp recharts
+122 silly dependencyIsSatisfied [
+122 silly dependencyIsSatisfied   'recharts',
+122 silly dependencyIsSatisfied   '^1.1.0',
+122 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+122 silly dependencyIsSatisfied ]
+123 verbose dependencyIsSatisfied recharts false
+124 silly hasDependencyInstalled dapp redux
+125 silly dependencyIsSatisfied [
+125 silly dependencyIsSatisfied   'redux',
+125 silly dependencyIsSatisfied   '^4.0.0',
+125 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+125 silly dependencyIsSatisfied ]
+126 verbose dependencyIsSatisfied redux false
+127 silly hasDependencyInstalled dapp redux-persist
+128 silly dependencyIsSatisfied [
+128 silly dependencyIsSatisfied   'redux-persist',
+128 silly dependencyIsSatisfied   '^5.10.0',
+128 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+128 silly dependencyIsSatisfied ]
+129 verbose dependencyIsSatisfied redux-persist false
+130 silly hasDependencyInstalled dapp redux-saga
+131 silly dependencyIsSatisfied [
+131 silly dependencyIsSatisfied   'redux-saga',
+131 silly dependencyIsSatisfied   '^0.16.0',
+131 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+131 silly dependencyIsSatisfied ]
+132 verbose dependencyIsSatisfied redux-saga false
+133 silly hasDependencyInstalled dapp serve
+134 silly dependencyIsSatisfied [
+134 silly dependencyIsSatisfied   'serve',
+134 silly dependencyIsSatisfied   '^9.3.0',
+134 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+134 silly dependencyIsSatisfied ]
+135 verbose dependencyIsSatisfied serve false
+136 silly hasDependencyInstalled dapp truffle-hdwallet-provider
+137 silly dependencyIsSatisfied [
+137 silly dependencyIsSatisfied   'truffle-hdwallet-provider',
+137 silly dependencyIsSatisfied   '1.0.5',
+137 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+137 silly dependencyIsSatisfied ]
+138 verbose dependencyIsSatisfied truffle-hdwallet-provider false
+139 silly hasDependencyInstalled smartcontracts truffle-hdwallet-provider
+140 silly dependencyIsSatisfied [
+140 silly dependencyIsSatisfied   'truffle-hdwallet-provider',
+140 silly dependencyIsSatisfied   '^1.0.0-web3one.0',
+140 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/smartcontracts/node_modules'
+140 silly dependencyIsSatisfied ]
+141 verbose dependencyIsSatisfied truffle-hdwallet-provider false
+142 silly hasDependencyInstalled dapp web3
+143 silly dependencyIsSatisfied [
+143 silly dependencyIsSatisfied   'web3',
+143 silly dependencyIsSatisfied   '1.0.0-beta.34',
+143 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+143 silly dependencyIsSatisfied ]
+144 verbose dependencyIsSatisfied web3 false
+145 silly hasDependencyInstalled gpcli web3
+146 silly dependencyIsSatisfied [
+146 silly dependencyIsSatisfied   'web3',
+146 silly dependencyIsSatisfied   '^1.0.0-beta.35',
+146 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/gpcli/node_modules'
+146 silly dependencyIsSatisfied ]
+147 verbose dependencyIsSatisfied web3 false
+148 silly hasDependencyInstalled dapp web3-provider-engine
+149 silly dependencyIsSatisfied [
+149 silly dependencyIsSatisfied   'web3-provider-engine',
+149 silly dependencyIsSatisfied   '^14.0.6',
+149 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/dapp/node_modules'
+149 silly dependencyIsSatisfied ]
+150 verbose dependencyIsSatisfied web3-provider-engine false
+151 silly hasDependencyInstalled gpcli web3-provider-engine
+152 silly dependencyIsSatisfied [
+152 silly dependencyIsSatisfied   'web3-provider-engine',
+152 silly dependencyIsSatisfied   '^14.0.6',
+152 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/gpcli/node_modules'
+152 silly dependencyIsSatisfied ]
+153 verbose dependencyIsSatisfied web3-provider-engine false
+154 silly hasDependencyInstalled gpcli commander
+155 silly dependencyIsSatisfied [
+155 silly dependencyIsSatisfied   'commander',
+155 silly dependencyIsSatisfied   '^2.16.0',
+155 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/gpcli/node_modules'
+155 silly dependencyIsSatisfied ]
+156 verbose dependencyIsSatisfied commander false
+157 silly hasDependencyInstalled gpcli dotenv
+158 silly dependencyIsSatisfied [
+158 silly dependencyIsSatisfied   'dotenv',
+158 silly dependencyIsSatisfied   '^6.0.0',
+158 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/gpcli/node_modules'
+158 silly dependencyIsSatisfied ]
+159 verbose dependencyIsSatisfied dotenv false
+160 silly hasDependencyInstalled smartcontracts dotenv
+161 silly dependencyIsSatisfied [
+161 silly dependencyIsSatisfied   'dotenv',
+161 silly dependencyIsSatisfied   '^6.0.0',
+161 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/smartcontracts/node_modules'
+161 silly dependencyIsSatisfied ]
+162 verbose dependencyIsSatisfied dotenv false
+163 silly hasDependencyInstalled gpcli dotenv-expand
+164 silly dependencyIsSatisfied [
+164 silly dependencyIsSatisfied   'dotenv-expand',
+164 silly dependencyIsSatisfied   '^4.2.0',
+164 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/gpcli/node_modules'
+164 silly dependencyIsSatisfied ]
+165 verbose dependencyIsSatisfied dotenv-expand false
+166 silly hasDependencyInstalled smartcontracts dotenv-expand
+167 silly dependencyIsSatisfied [
+167 silly dependencyIsSatisfied   'dotenv-expand',
+167 silly dependencyIsSatisfied   '^4.2.0',
+167 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/smartcontracts/node_modules'
+167 silly dependencyIsSatisfied ]
+168 verbose dependencyIsSatisfied dotenv-expand false
+169 silly hasDependencyInstalled io.asure.dapp cordova-android
+170 silly dependencyIsSatisfied [
+170 silly dependencyIsSatisfied   'cordova-android',
+170 silly dependencyIsSatisfied   '^7.0.0',
+170 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/io.asure.dapp/node_modules'
+170 silly dependencyIsSatisfied ]
+171 verbose dependencyIsSatisfied cordova-android false
+172 silly hasDependencyInstalled io.asure.dapp cordova-plugin-camera
+173 silly dependencyIsSatisfied [
+173 silly dependencyIsSatisfied   'cordova-plugin-camera',
+173 silly dependencyIsSatisfied   '^4.0.3',
+173 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/io.asure.dapp/node_modules'
+173 silly dependencyIsSatisfied ]
+174 verbose dependencyIsSatisfied cordova-plugin-camera false
+175 silly hasDependencyInstalled io.asure.dapp cordova-plugin-whitelist
+176 silly dependencyIsSatisfied [
+176 silly dependencyIsSatisfied   'cordova-plugin-whitelist',
+176 silly dependencyIsSatisfied   '^1.3.3',
+176 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/io.asure.dapp/node_modules'
+176 silly dependencyIsSatisfied ]
+177 verbose dependencyIsSatisfied cordova-plugin-whitelist false
+178 silly hasDependencyInstalled smartcontracts ganache-cli
+179 silly dependencyIsSatisfied [
+179 silly dependencyIsSatisfied   'ganache-cli',
+179 silly dependencyIsSatisfied   '^6.1.6',
+179 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/smartcontracts/node_modules'
+179 silly dependencyIsSatisfied ]
+180 verbose dependencyIsSatisfied ganache-cli false
+181 silly hasDependencyInstalled smartcontracts truffle
+182 silly dependencyIsSatisfied [
+182 silly dependencyIsSatisfied   'truffle',
+182 silly dependencyIsSatisfied   '^5.0.0-beta.0',
+182 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/smartcontracts/node_modules'
+182 silly dependencyIsSatisfied ]
+183 verbose dependencyIsSatisfied truffle false
+184 silly hasDependencyInstalled smartcontracts openzeppelin-solidity
+185 silly dependencyIsSatisfied [
+185 silly dependencyIsSatisfied   'openzeppelin-solidity',
+185 silly dependencyIsSatisfied   '^1.11.0',
+185 silly dependencyIsSatisfied   '/home/ali/asure-dapp/packages/smartcontracts/node_modules'
+185 silly dependencyIsSatisfied ]
+186 verbose dependencyIsSatisfied openzeppelin-solidity false
+187 silly root dependencies []
+188 silly leaf dependencies {
+188 silly leaf dependencies   "dapp": [
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "babel-plugin-import@^1.8.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "less@^3.7.1",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "less-loader@^4.1.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "react-app-rewired@^1.5.2",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "script-ext-html-webpack-plugin@^2.1.3",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "webpack-pwa-manifest@^3.6.3",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "antd-mobile@^2.2.2",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "bip39@^2.5.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "connected-react-router@^4.3.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "drizzle@^1.2.2",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "drizzle-react@^1.1.1",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "drizzle-react-components@^1.1.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "eth-block-tracker-es5@^2.3.2",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "ethereumjs-tx@^1.3.6",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "ethereumjs-wallet@^0.6.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "history@^4.7.2",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "html5-device-mockups@^3.2.1",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "ipfs-api@^22.2.4",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "mobile-detect@^1.4.2",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "moment@^2.22.2",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "prop-types@^15.6.2",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "rc-form@^2.2.1",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "react@^16.4.1",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "react-dom@^16.4.1",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "react-qr-reader@^2.1.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "react-qr-svg@^2.1.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "react-redux@^5.0.7",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "react-router-dom@^4.3.1",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "react-scripts@1.1.4",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "react-sticky@^6.0.3",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "recharts@^1.1.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "redux@^4.0.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "redux-persist@^5.10.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "redux-saga@^0.16.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "serve@^9.3.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "truffle-hdwallet-provider@1.0.5",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "web3@1.0.0-beta.34",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "web3-provider-engine@^14.0.6",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     }
+188 silly leaf dependencies   ],
+188 silly leaf dependencies   "gpcli": [
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "bip39@^2.5.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "ethereumjs-wallet@0.6.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "moment@^2.22.2",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "web3@^1.0.0-beta.35",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "web3-provider-engine@^14.0.6",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "commander@^2.16.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "dotenv@^6.0.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "dotenv-expand@^4.2.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     }
+188 silly leaf dependencies   ],
+188 silly leaf dependencies   "smartcontracts": [
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "truffle-hdwallet-provider@^1.0.0-web3one.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "dotenv@^6.0.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "dotenv-expand@^4.2.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "ganache-cli@^6.1.6",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "truffle@^5.0.0-beta.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "openzeppelin-solidity@^1.11.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     }
+188 silly leaf dependencies   ],
+188 silly leaf dependencies   "io.asure.dapp": [
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "cordova-android@^7.0.0",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "cordova-plugin-camera@^4.0.3",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     },
+188 silly leaf dependencies     {
+188 silly leaf dependencies       "dependency": "cordova-plugin-whitelist@^1.3.3",
+188 silly leaf dependencies       "isSatisfied": false
+188 silly leaf dependencies     }
+188 silly leaf dependencies   ]
+188 silly leaf dependencies }
+189 info Installing external dependencies
+190 verbose actions 4 actions, concurrency 4
+191 silly installInDir dapp [
+191 silly installInDir   'babel-plugin-import@^1.8.0',
+191 silly installInDir   'less@^3.7.1',
+191 silly installInDir   'less-loader@^4.1.0',
+191 silly installInDir   'react-app-rewired@^1.5.2',
+191 silly installInDir   'script-ext-html-webpack-plugin@^2.1.3',
+191 silly installInDir   'webpack-pwa-manifest@^3.6.3',
+191 silly installInDir   'antd-mobile@^2.2.2',
+191 silly installInDir   'bip39@^2.5.0',
+191 silly installInDir   'connected-react-router@^4.3.0',
+191 silly installInDir   'drizzle@^1.2.2',
+191 silly installInDir   'drizzle-react@^1.1.1',
+191 silly installInDir   'drizzle-react-components@^1.1.0',
+191 silly installInDir   'eth-block-tracker-es5@^2.3.2',
+191 silly installInDir   'ethereumjs-tx@^1.3.6',
+191 silly installInDir   'ethereumjs-wallet@^0.6.0',
+191 silly installInDir   'history@^4.7.2',
+191 silly installInDir   'html5-device-mockups@^3.2.1',
+191 silly installInDir   'ipfs-api@^22.2.4',
+191 silly installInDir   'mobile-detect@^1.4.2',
+191 silly installInDir   'moment@^2.22.2',
+191 silly installInDir   'prop-types@^15.6.2',
+191 silly installInDir   'rc-form@^2.2.1',
+191 silly installInDir   'react@^16.4.1',
+191 silly installInDir   'react-dom@^16.4.1',
+191 silly installInDir   'react-qr-reader@^2.1.0',
+191 silly installInDir   'react-qr-svg@^2.1.0',
+191 silly installInDir   'react-redux@^5.0.7',
+191 silly installInDir   'react-router-dom@^4.3.1',
+191 silly installInDir   'react-scripts@1.1.4',
+191 silly installInDir   'react-sticky@^6.0.3',
+191 silly installInDir   'recharts@^1.1.0',
+191 silly installInDir   'redux@^4.0.0',
+191 silly installInDir   'redux-persist@^5.10.0',
+191 silly installInDir   'redux-saga@^0.16.0',
+191 silly installInDir   'serve@^9.3.0',
+191 silly installInDir   'truffle-hdwallet-provider@1.0.5',
+191 silly installInDir   'web3@1.0.0-beta.34',
+191 silly installInDir   'web3-provider-engine@^14.0.6'
+191 silly installInDir ]
+192 silly installInDir backup /home/ali/asure-dapp/packages/dapp/package.json
+193 silly rename [
+193 silly rename   '/home/ali/asure-dapp/packages/dapp/package.json',
+193 silly rename   '/home/ali/asure-dapp/packages/dapp/package.json.lerna_backup'
+193 silly rename ]
+194 silly installInDir gpcli [
+194 silly installInDir   'bip39@^2.5.0',
+194 silly installInDir   'ethereumjs-wallet@0.6.0',
+194 silly installInDir   'moment@^2.22.2',
+194 silly installInDir   'web3@^1.0.0-beta.35',
+194 silly installInDir   'web3-provider-engine@^14.0.6',
+194 silly installInDir   'commander@^2.16.0',
+194 silly installInDir   'dotenv@^6.0.0',
+194 silly installInDir   'dotenv-expand@^4.2.0'
+194 silly installInDir ]
+195 silly installInDir backup /home/ali/asure-dapp/packages/gpcli/package.json
+196 silly rename [
+196 silly rename   '/home/ali/asure-dapp/packages/gpcli/package.json',
+196 silly rename   '/home/ali/asure-dapp/packages/gpcli/package.json.lerna_backup'
+196 silly rename ]
+197 silly installInDir smartcontracts [
+197 silly installInDir   'truffle-hdwallet-provider@^1.0.0-web3one.0',
+197 silly installInDir   'dotenv@^6.0.0',
+197 silly installInDir   'dotenv-expand@^4.2.0',
+197 silly installInDir   'ganache-cli@^6.1.6',
+197 silly installInDir   'truffle@^5.0.0-beta.0',
+197 silly installInDir   'openzeppelin-solidity@^1.11.0'
+197 silly installInDir ]
+198 silly installInDir backup /home/ali/asure-dapp/packages/smartcontracts/package.json
+199 silly rename [
+199 silly rename   '/home/ali/asure-dapp/packages/smartcontracts/package.json',
+199 silly rename   '/home/ali/asure-dapp/packages/smartcontracts/package.json.lerna_backup'
+199 silly rename ]
+200 silly installInDir io.asure.dapp [
+200 silly installInDir   'cordova-android@^7.0.0',
+200 silly installInDir   'cordova-plugin-camera@^4.0.3',
+200 silly installInDir   'cordova-plugin-whitelist@^1.3.3'
+200 silly installInDir ]
+201 silly installInDir backup /home/ali/asure-dapp/packages/io.asure.dapp/package.json
+202 silly rename [
+202 silly rename   '/home/ali/asure-dapp/packages/io.asure.dapp/package.json',
+202 silly rename   '/home/ali/asure-dapp/packages/io.asure.dapp/package.json.lerna_backup'
+202 silly rename ]
+203 silly installInDir writing tempJson {
+203 silly installInDir   dependencies: {
+203 silly installInDir     'babel-plugin-import': '^1.8.0',
+203 silly installInDir     less: '^3.7.1',
+203 silly installInDir     'less-loader': '^4.1.0',
+203 silly installInDir     'react-app-rewired': '^1.5.2',
+203 silly installInDir     'script-ext-html-webpack-plugin': '^2.1.3',
+203 silly installInDir     'webpack-pwa-manifest': '^3.6.3',
+203 silly installInDir     'antd-mobile': '^2.2.2',
+203 silly installInDir     bip39: '^2.5.0',
+203 silly installInDir     'connected-react-router': '^4.3.0',
+203 silly installInDir     drizzle: '^1.2.2',
+203 silly installInDir     'drizzle-react': '^1.1.1',
+203 silly installInDir     'drizzle-react-components': '^1.1.0',
+203 silly installInDir     'eth-block-tracker-es5': '^2.3.2',
+203 silly installInDir     'ethereumjs-tx': '^1.3.6',
+203 silly installInDir     'ethereumjs-wallet': '^0.6.0',
+203 silly installInDir     history: '^4.7.2',
+203 silly installInDir     'html5-device-mockups': '^3.2.1',
+203 silly installInDir     'ipfs-api': '^22.2.4',
+203 silly installInDir     'mobile-detect': '^1.4.2',
+203 silly installInDir     moment: '^2.22.2',
+203 silly installInDir     'prop-types': '^15.6.2',
+203 silly installInDir     'rc-form': '^2.2.1',
+203 silly installInDir     react: '^16.4.1',
+203 silly installInDir     'react-dom': '^16.4.1',
+203 silly installInDir     'react-qr-reader': '^2.1.0',
+203 silly installInDir     'react-qr-svg': '^2.1.0',
+203 silly installInDir     'react-redux': '^5.0.7',
+203 silly installInDir     'react-router-dom': '^4.3.1',
+203 silly installInDir     'react-scripts': '1.1.4',
+203 silly installInDir     'react-sticky': '^6.0.3',
+203 silly installInDir     recharts: '^1.1.0',
+203 silly installInDir     redux: '^4.0.0',
+203 silly installInDir     'redux-persist': '^5.10.0',
+203 silly installInDir     'redux-saga': '^0.16.0',
+203 silly installInDir     serve: '^9.3.0',
+203 silly installInDir     'truffle-hdwallet-provider': '1.0.5',
+203 silly installInDir     web3: '1.0.0-beta.34',
+203 silly installInDir     'web3-provider-engine': '^14.0.6'
+203 silly installInDir   }
+203 silly installInDir }
+204 silly installInDir writing tempJson {
+204 silly installInDir   dependencies: {
+204 silly installInDir     bip39: '^2.5.0',
+204 silly installInDir     'ethereumjs-wallet': '0.6.0',
+204 silly installInDir     moment: '^2.22.2',
+204 silly installInDir     web3: '^1.0.0-beta.35',
+204 silly installInDir     'web3-provider-engine': '^14.0.6',
+204 silly installInDir     commander: '^2.16.0',
+204 silly installInDir     dotenv: '^6.0.0',
+204 silly installInDir     'dotenv-expand': '^4.2.0'
+204 silly installInDir   }
+204 silly installInDir }
+205 silly installInDir writing tempJson {
+205 silly installInDir   dependencies: {
+205 silly installInDir     'truffle-hdwallet-provider': '^1.0.0-web3one.0',
+205 silly installInDir     dotenv: '^6.0.0',
+205 silly installInDir     'dotenv-expand': '^4.2.0',
+205 silly installInDir     'ganache-cli': '^6.1.6',
+205 silly installInDir     truffle: '^5.0.0-beta.0',
+205 silly installInDir     'openzeppelin-solidity': '^1.11.0'
+205 silly installInDir   }
+205 silly installInDir }
+206 silly installInDir writing tempJson {
+206 silly installInDir   dependencies: {
+206 silly installInDir     'cordova-android': '^7.0.0',
+206 silly installInDir     'cordova-plugin-camera': '^4.0.3',
+206 silly installInDir     'cordova-plugin-whitelist': '^1.3.3'
+206 silly installInDir   }
+206 silly installInDir }
+207 silly getExecOpts { cwd: '/home/ali/asure-dapp/packages/dapp' }
+208 silly installInDir [ 'npm', [ 'install' ] ]
+209 silly getExecOpts { cwd: '/home/ali/asure-dapp/packages/io.asure.dapp' }
+210 silly installInDir [ 'npm', [ 'install' ] ]
+211 silly getExecOpts { cwd: '/home/ali/asure-dapp/packages/gpcli' }
+212 silly installInDir [ 'npm', [ 'install' ] ]
+213 silly getExecOpts { cwd: '/home/ali/asure-dapp/packages/smartcontracts' }
+214 silly installInDir [ 'npm', [ 'install' ] ]
+215 silly installInDir cleanup /home/ali/asure-dapp/packages/io.asure.dapp/package.json
+216 silly renameSync [
+216 silly renameSync   '/home/ali/asure-dapp/packages/io.asure.dapp/package.json.lerna_backup',
+216 silly renameSync   '/home/ali/asure-dapp/packages/io.asure.dapp/package.json'
+216 silly renameSync ]
+217 verbose installed leaf io.asure.dapp
+218 silly installInDir cleanup /home/ali/asure-dapp/packages/smartcontracts/package.json
+219 silly renameSync [
+219 silly renameSync   '/home/ali/asure-dapp/packages/smartcontracts/package.json.lerna_backup',
+219 silly renameSync   '/home/ali/asure-dapp/packages/smartcontracts/package.json'
+219 silly renameSync ]
+220 verbose installed leaf smartcontracts
+221 error execute callback with error
+222 error Error: Command failed: npm install
+222 error In file included from ../../nan/nan_converters.h:67,
+222 error                  from ../../nan/nan.h:202,
+222 error                  from ../src/addon.cc:2:
+222 error ../../nan/nan_converters_43_inl.h: In static member function ‘static Nan::imp::ToFactoryBase<v8::Boolean>::return_t Nan::imp::ToFactory<v8::Boolean>::convert(v8::Local<v8::Value>)’:
+222 error ../../nan/nan_converters_43_inl.h:18:49: error: cannot convert ‘v8::Local<v8::Context>’ to ‘v8::Isolate*’
+222 error    18 |       val->To ## TYPE(isolate->GetCurrentContext())                            \
+222 error       |                       ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+222 error       |                                                 |
+222 error       |                                                 v8::Local<v8::Context>
+222 error ../../nan/nan_converters_43_inl.h:22:1: note: in expansion of macro ‘X’
+222 error    22 | X(Boolean)
+222 error       | ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../src/addon.cc:1:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:2848:37: note:   initializing argument 1 of ‘v8::Local<v8::Boolean> v8::Value::ToBoolean(v8::Isolate*) const’
+222 error  2848 |   Local<Boolean> ToBoolean(Isolate* isolate) const;
+222 error       |                            ~~~~~~~~~^~~~~~~
+222 error In file included from ../../nan/nan_converters.h:67,
+222 error                  from ../../nan/nan.h:202,
+222 error                  from ../src/addon.cc:2:
+222 error ../../nan/nan_converters_43_inl.h: In static member function ‘static Nan::imp::ValueFactoryBase<bool>::return_t Nan::imp::ToFactory<bool>::convert(v8::Local<v8::Value>)’:
+222 error ../../nan/nan_converters_43_inl.h:37:55: error: cannot convert ‘v8::Local<v8::Context>’ to ‘v8::Isolate*’
+222 error    37 |   return val->NAME ## Value(isolate->GetCurrentContext());                     \
+222 error       |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+222 error       |                                                       |
+222 error       |                                                       v8::Local<v8::Context>
+222 error ../../nan/nan_converters_43_inl.h:40:1: note: in expansion of macro ‘X’
+222 error    40 | X(bool, Boolean)
+222 error       | ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../src/addon.cc:1:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:2858:30: note:   initializing argument 1 of ‘bool v8::Value::BooleanValue(v8::Isolate*) const’
+222 error  2858 |   bool BooleanValue(Isolate* isolate) const;
+222 error       |                     ~~~~~~~~~^~~~~~~
+222 error In file included from ../../nan/nan_new.h:189,
+222 error                  from ../../nan/nan.h:203,
+222 error                  from ../src/addon.cc:2:
+222 error ../../nan/nan_implementation_12_inl.h: In static member function ‘static Nan::imp::FactoryBase<v8::Function>::return_t Nan::imp::Factory<v8::Function>::New(Nan::FunctionCallback, v8::Local<v8::Value>)’:
+222 error ../../nan/nan_implementation_12_inl.h:103:42: error: cannot convert ‘v8::Isolate*’ to ‘v8::Local<v8::Context>’
+222 error   103 |   return scope.Escape(v8::Function::New( isolate
+222 error       |                                          ^~~~~~~
+222 error       |                                          |
+222 error       |                                          v8::Isolate*
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../src/addon.cc:1:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:4446:22: note:   initializing argument 1 of ‘static v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>, v8::FunctionCallback, v8::Local<v8::Value>, int, v8::ConstructorBehavior, v8::SideEffectType)’
+222 error  4446 |       Local<Context> context, FunctionCallback callback,
+222 error       |       ~~~~~~~~~~~~~~~^~~~~~~
+222 error In file included from ../../nan/nan_new.h:189,
+222 error                  from ../../nan/nan.h:203,
+222 error                  from ../src/addon.cc:2:
+222 error ../../nan/nan_implementation_12_inl.h: In static member function ‘static Nan::imp::FactoryBase<v8::StringObject>::return_t Nan::imp::Factory<v8::StringObject>::New(v8::Local<v8::String>)’:
+222 error ../../nan/nan_implementation_12_inl.h:337:37: error: no matching function for call to ‘v8::StringObject::New(v8::Local<v8::String>&)’
+222 error   337 |   return v8::StringObject::New(value).As<v8::StringObject>();
+222 error       |                                     ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../src/addon.cc:1:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:5854:23: note: candidate: ‘static v8::Local<v8::Value> v8::StringObject::New(v8::Isolate*, v8::Local<v8::String>)’
+222 error  5854 |   static Local<Value> New(Isolate* isolate, Local<String> value);
+222 error       |                       ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:5854:23: note:   candidate expects 2 arguments, 1 provided
+222 error In file included from ../../nan/nan_new.h:189,
+222 error                  from ../../nan/nan.h:203,
+222 error                  from ../src/addon.cc:2:
+222 error ../../nan/nan_implementation_12_inl.h:337:58: error: expected primary-expression before ‘>’ token
+222 error   337 |   return v8::StringObject::New(value).As<v8::StringObject>();
+222 error       |                                                          ^
+222 error ../../nan/nan_implementation_12_inl.h:337:60: error: expected primary-expression before ‘)’ token
+222 error   337 |   return v8::StringObject::New(value).As<v8::StringObject>();
+222 error       |                                                            ^
+222 error In file included from ../src/addon.cc:2:
+222 error ../../nan/nan.h: In constructor ‘Nan::Utf8String::Utf8String(v8::Local<v8::Value>)’:
+222 error ../../nan/nan.h:1034:53: error: no matching function for call to ‘v8::Value::ToString()’
+222 error  1034 |       v8::Local<v8::String> string = from->ToString();
+222 error       |                                                     ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../src/addon.cc:1:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:2810:44: note: candidate: ‘v8::MaybeLocal<v8::String> v8::Value::ToString(v8::Local<v8::Context>) const’
+222 error  2810 |   V8_WARN_UNUSED_RESULT MaybeLocal<String> ToString(
+222 error       |                                            ^~~~~~~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:2810:44: note:   candidate expects 1 argument, 0 provided
+222 error In file included from ../src/addon.cc:2:
+222 error ../../nan/nan.h:1044:37: error: cannot convert ‘char*’ to ‘v8::Isolate*’
+222 error  1044 |         length_ = string->WriteUtf8(str_, static_cast<int>(len), 0, flags);
+222 error       |                                     ^~~~
+222 error       |                                     |
+222 error       |                                     char*
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../src/addon.cc:1:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3037:26: note:   initializing argument 1 of ‘int v8::String::WriteUtf8(v8::Isolate*, char*, int, int*, int) const’
+222 error  3037 |   int WriteUtf8(Isolate* isolate, char* buffer, int length = -1,
+222 error       |                 ~~~~~~~~~^~~~~~~
+222 error In file included from ../src/addon.cc:2:
+222 error ../../nan/nan.h: In member function ‘void Nan::AsyncWorker::SaveToPersistent(const char*, const v8::Local<v8::Value>&)’:
+222 error ../../nan/nan.h:1818:64: error: no matching function for call to ‘v8::Object::Set(v8::Local<v8::String>, const v8::Local<v8::Value>&)’
+222 error  1818 |     New(persistentHandle)->Set(New(key).ToLocalChecked(), value);
+222 error       |                                                                ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../src/addon.cc:1:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3670:37: note: candidate: ‘v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, v8::Local<v8::Value>, v8::Local<v8::Value>)’
+222 error  3670 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+222 error       |                                     ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3670:37: note:   candidate expects 3 arguments, 2 provided
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3673:37: note: candidate: ‘v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, uint32_t, v8::Local<v8::Value>)’
+222 error  3673 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+222 error       |                                     ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3673:37: note:   candidate expects 3 arguments, 2 provided
+222 error In file included from ../src/addon.cc:2:
+222 error ../../nan/nan.h: In member function ‘void Nan::AsyncWorker::SaveToPersistent(const v8::Local<v8::String>&, const v8::Local<v8::Value>&)’:
+222 error ../../nan/nan.h:1824:42: error: no matching function for call to ‘v8::Object::Set(const v8::Local<v8::String>&, const v8::Local<v8::Value>&)’
+222 error  1824 |     New(persistentHandle)->Set(key, value);
+222 error       |                                          ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../src/addon.cc:1:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3670:37: note: candidate: ‘v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, v8::Local<v8::Value>, v8::Local<v8::Value>)’
+222 error  3670 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+222 error       |                                     ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3670:37: note:   candidate expects 3 arguments, 2 provided
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3673:37: note: candidate: ‘v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, uint32_t, v8::Local<v8::Value>)’
+222 error  3673 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+222 error       |                                     ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3673:37: note:   candidate expects 3 arguments, 2 provided
+222 error In file included from ../src/addon.cc:2:
+222 error ../../nan/nan.h: In member function ‘void Nan::AsyncWorker::SaveToPersistent(uint32_t, const v8::Local<v8::Value>&)’:
+222 error ../../nan/nan.h:1830:44: error: no matching function for call to ‘v8::Object::Set(uint32_t&, const v8::Local<v8::Value>&)’
+222 error  1830 |     New(persistentHandle)->Set(index, value);
+222 error       |                                            ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../src/addon.cc:1:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3670:37: note: candidate: ‘v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, v8::Local<v8::Value>, v8::Local<v8::Value>)’
+222 error  3670 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+222 error       |                                     ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3670:37: note:   candidate expects 3 arguments, 2 provided
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3673:37: note: candidate: ‘v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, uint32_t, v8::Local<v8::Value>)’
+222 error  3673 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+222 error       |                                     ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3673:37: note:   candidate expects 3 arguments, 2 provided
+222 error In file included from ../src/addon.cc:2:
+222 error ../../nan/nan.h: In member function ‘v8::Local<v8::Value> Nan::AsyncWorker::GetFromPersistent(const char*) const’:
+222 error ../../nan/nan.h:1836:61: error: no matching function for call to ‘v8::Object::Get(v8::Local<v8::String>)’
+222 error  1836 |         New(persistentHandle)->Get(New(key).ToLocalChecked()));
+222 error       |                                                             ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../src/addon.cc:1:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3717:43: note: candidate: ‘v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)’
+222 error  3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+222 error       |                                           ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3720:43: note: candidate: ‘v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)’
+222 error  3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+222 error       |                                           ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+222 error In file included from ../src/addon.cc:2:
+222 error ../../nan/nan.h: In member function ‘v8::Local<v8::Value> Nan::AsyncWorker::GetFromPersistent(const v8::Local<v8::String>&) const’:
+222 error ../../nan/nan.h:1842:55: error: no matching function for call to ‘v8::Object::Get(const v8::Local<v8::String>&)’
+222 error  1842 |     return scope.Escape(New(persistentHandle)->Get(key));
+222 error       |                                                       ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../src/addon.cc:1:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3717:43: note: candidate: ‘v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)’
+222 error  3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+222 error       |                                           ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3720:43: note: candidate: ‘v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)’
+222 error  3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+222 error       |                                           ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+222 error In file included from ../src/addon.cc:2:
+222 error ../../nan/nan.h: In member function ‘v8::Local<v8::Value> Nan::AsyncWorker::GetFromPersistent(uint32_t) const’:
+222 error ../../nan/nan.h:1847:57: error: no matching function for call to ‘v8::Object::Get(uint32_t&)’
+222 error  1847 |     return scope.Escape(New(persistentHandle)->Get(index));
+222 error       |                                                         ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../src/addon.cc:1:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3717:43: note: candidate: ‘v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)’
+222 error  3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+222 error       |                                           ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3720:43: note: candidate: ‘v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)’
+222 error  3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+222 error       |                                           ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+222 error In file included from ../src/addon.cc:2:
+222 error ../../nan/nan.h: In function ‘void Nan::AsyncQueueWorker(Nan::AsyncWorker*)’:
+222 error ../../nan/nan.h:2167:62: warning: cast between incompatible function types from ‘void (*)(uv_work_t*)’ {aka ‘void (*)(uv_work_s*)’} to ‘uv_after_work_cb’ {aka ‘void (*)(uv_work_s*, int)’} [-Wcast-function-type]
+222 error  2167 |     , reinterpret_cast<uv_after_work_cb>(AsyncExecuteComplete)
+222 error       |                                                              ^
+222 error In file included from /usr/include/c++/9/cassert:44,
+222 error                  from /home/ali/.cache/node-gyp/14.15.4/include/node/node_object_wrap.h:26,
+222 error                  from ../../nan/nan.h:53,
+222 error                  from ../src/addon.cc:2:
+222 error ../../nan/nan_object_wrap.h: In destructor ‘virtual Nan::ObjectWrap::~ObjectWrap()’:
+222 error ../../nan/nan_object_wrap.h:24:25: error: ‘class Nan::Persistent<v8::Object>’ has no member named ‘IsNearDeath’
+222 error    24 |     assert(persistent().IsNearDeath());
+222 error       |                         ^~~~~~~~~~~
+222 error In file included from ../../nan/nan.h:2657,
+222 error                  from ../src/addon.cc:2:
+222 error ../../nan/nan_object_wrap.h: In member function ‘void Nan::ObjectWrap::MakeWeak()’:
+222 error ../../nan/nan_object_wrap.h:67:18: error: ‘class Nan::Persistent<v8::Object>’ has no member named ‘MarkIndependent’
+222 error    67 |     persistent().MarkIndependent();
+222 error       |                  ^~~~~~~~~~~~~~~
+222 error In file included from /usr/include/c++/9/cassert:44,
+222 error                  from /home/ali/.cache/node-gyp/14.15.4/include/node/node_object_wrap.h:26,
+222 error                  from ../../nan/nan.h:53,
+222 error                  from ../src/addon.cc:2:
+222 error ../../nan/nan_object_wrap.h: In static member function ‘static void Nan::ObjectWrap::WeakCallback(const v8::WeakCallbackInfo<Nan::ObjectWrap>&)’:
+222 error ../../nan/nan_object_wrap.h:124:26: error: ‘class Nan::Persistent<v8::Object>’ has no member named ‘IsNearDeath’
+222 error   124 |     assert(wrap->handle_.IsNearDeath());
+222 error       |                          ^~~~~~~~~~~
+222 error ../src/addon.cc: In static member function ‘static Nan::NAN_METHOD_RETURN_TYPE KeccakWrapper::Initialize(Nan::NAN_METHOD_ARGS_TYPE)’:
+222 error ../src/addon.cc:37:47: error: no matching function for call to ‘v8::Value::IntegerValue()’
+222 error    37 |     unsigned int rate = info[0]->IntegerValue();
+222 error       |                                               ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../src/addon.cc:1:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:2863:40: note: candidate: ‘v8::Maybe<long int> v8::Value::IntegerValue(v8::Local<v8::Context>) const’
+222 error  2863 |   V8_WARN_UNUSED_RESULT Maybe<int64_t> IntegerValue(
+222 error       |                                        ^~~~~~~~~~~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:2863:40: note:   candidate expects 1 argument, 0 provided
+222 error ../src/addon.cc:38:51: error: no matching function for call to ‘v8::Value::IntegerValue()’
+222 error    38 |     unsigned int capacity = info[1]->IntegerValue();
+222 error       |                                                   ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../src/addon.cc:1:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:2863:40: note: candidate: ‘v8::Maybe<long int> v8::Value::IntegerValue(v8::Local<v8::Context>) const’
+222 error  2863 |   V8_WARN_UNUSED_RESULT Maybe<int64_t> IntegerValue(
+222 error       |                                        ^~~~~~~~~~~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:2863:40: note:   candidate expects 1 argument, 0 provided
+222 error ../src/addon.cc: In static member function ‘static Nan::NAN_METHOD_RETURN_TYPE KeccakWrapper::AbsorbLastFewBits(Nan::NAN_METHOD_ARGS_TYPE)’:
+222 error ../src/addon.cc:56:48: error: no matching function for call to ‘v8::Value::IntegerValue()’
+222 error    56 |     unsigned char bits = info[0]->IntegerValue();
+222 error       |                                                ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../src/addon.cc:1:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:2863:40: note: candidate: ‘v8::Maybe<long int> v8::Value::IntegerValue(v8::Local<v8::Context>) const’
+222 error  2863 |   V8_WARN_UNUSED_RESULT Maybe<int64_t> IntegerValue(
+222 error       |                                        ^~~~~~~~~~~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:2863:40: note:   candidate expects 1 argument, 0 provided
+222 error ../src/addon.cc: In static member function ‘static Nan::NAN_METHOD_RETURN_TYPE KeccakWrapper::Squeeze(Nan::NAN_METHOD_ARGS_TYPE)’:
+222 error ../src/addon.cc:64:43: error: no matching function for call to ‘v8::Value::IntegerValue()’
+222 error    64 |     size_t length = info[0]->IntegerValue();
+222 error       |                                           ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../src/addon.cc:1:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:2863:40: note: candidate: ‘v8::Maybe<long int> v8::Value::IntegerValue(v8::Local<v8::Context>) const’
+222 error  2863 |   V8_WARN_UNUSED_RESULT Maybe<int64_t> IntegerValue(
+222 error       |                                        ^~~~~~~~~~~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:2863:40: note:   candidate expects 1 argument, 0 provided
+222 error ../src/addon.cc: In static member function ‘static Nan::NAN_METHOD_RETURN_TYPE KeccakWrapper::Copy(Nan::NAN_METHOD_ARGS_TYPE)’:
+222 error ../src/addon.cc:75:82: error: no matching function for call to ‘v8::Value::ToObject()’
+222 error    75 |     KeccakWrapper* to = Nan::ObjectWrap::Unwrap<KeccakWrapper>(info[0]->ToObject());
+222 error       |                                                                                  ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../src/addon.cc:1:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:2822:44: note: candidate: ‘v8::MaybeLocal<v8::Object> v8::Value::ToObject(v8::Local<v8::Context>) const’
+222 error  2822 |   V8_WARN_UNUSED_RESULT MaybeLocal<Object> ToObject(
+222 error       |                                            ^~~~~~~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:2822:44: note:   candidate expects 1 argument, 0 provided
+222 error In file included from ../src/addon.cc:1:
+222 error ../src/addon.cc: At global scope:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:758:43: warning: cast between incompatible function types from ‘void (*)(Nan::ADDON_REGISTER_FUNCTION_ARGS_TYPE, Nan::ADDON_REGISTER_FUNCTION_ARGS_TYPE)’ {aka ‘void (*)(v8::Local<v8::Object>, v8::Local<v8::Object>)’} to ‘node::addon_register_func’ {aka ‘void (*)(v8::Local<v8::Object>, v8::Local<v8::Value>, void*)’} [-Wcast-function-type]
+222 error   758 |       (node::addon_register_func) (regfunc),                          \
+222 error       |                                           ^
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:792:3: note: in expansion of macro ‘NODE_MODULE_X’
+222 error   792 |   NODE_MODULE_X(modname, regfunc, NULL, 0)  // NOLINT (readability/null_usage)
+222 error       |   ^~~~~~~~~~~~~
+222 error ../src/addon.cc:86:1: note: in expansion of macro ‘NODE_MODULE’
+222 error    86 | NODE_MODULE(keccak, Init)
+222 error       | ^~~~~~~~~~~
+222 error make: *** [keccak.target.mk:129: Release/obj.target/keccak/src/addon.o] Error 1
+222 error gyp ERR! build error
+222 error gyp ERR! stack Error: `make` failed with exit code: 2
+222 error gyp ERR! stack     at ChildProcess.onExit (/home/ali/.nvm/versions/node/v14.15.4/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:194:23)
+222 error gyp ERR! stack     at ChildProcess.emit (events.js:315:20)
+222 error gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:277:12)
+222 error gyp ERR! System Linux 4.19.128-microsoft-standard
+222 error gyp ERR! command "/home/ali/.nvm/versions/node/v14.15.4/bin/node" "/home/ali/.nvm/versions/node/v14.15.4/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+222 error gyp ERR! cwd /home/ali/asure-dapp/packages/smartcontracts/node_modules/keccak
+222 error gyp ERR! node -v v14.15.4
+222 error gyp ERR! node-gyp -v v5.1.0
+222 error gyp ERR! not ok
+222 error npm ERR! code ELIFECYCLE
+222 error npm ERR! errno 1
+222 error npm ERR! keccak@1.4.0 rebuild: `node-gyp rebuild`
+222 error npm ERR! Exit status 1
+222 error npm ERR!
+222 error npm ERR! Failed at the keccak@1.4.0 rebuild script.
+222 error npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+222 error npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+222 error
+222 error npm ERR! A complete log of this run can be found in:
+222 error npm ERR!     /home/ali/.npm/_logs/2021-03-09T13_59_42_836Z-debug.log
+222 error In file included from ../../nan/nan_converters.h:67,
+222 error                  from ../../nan/nan.h:202,
+222 error                  from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error ../../nan/nan_converters_43_inl.h: In static member function ‘static Nan::imp::ToFactoryBase<v8::Boolean>::return_t Nan::imp::ToFactory<v8::Boolean>::convert(v8::Local<v8::Value>)’:
+222 error ../../nan/nan_converters_43_inl.h:18:49: error: cannot convert ‘v8::Local<v8::Context>’ to ‘v8::Isolate*’
+222 error    18 |       val->To ## TYPE(isolate->GetCurrentContext())                            \
+222 error       |                       ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+222 error       |                                                 |
+222 error       |                                                 v8::Local<v8::Context>
+222 error ../../nan/nan_converters_43_inl.h:22:1: note: in expansion of macro ‘X’
+222 error    22 | X(Boolean)
+222 error       | ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../../nan/nan.h:51,
+222 error                  from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:2848:37: note:   initializing argument 1 of ‘v8::Local<v8::Boolean> v8::Value::ToBoolean(v8::Isolate*) const’
+222 error  2848 |   Local<Boolean> ToBoolean(Isolate* isolate) const;
+222 error       |                            ~~~~~~~~~^~~~~~~
+222 error In file included from ../../nan/nan_converters.h:67,
+222 error                  from ../../nan/nan.h:202,
+222 error                  from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error ../../nan/nan_converters_43_inl.h: In static member function ‘static Nan::imp::ValueFactoryBase<bool>::return_t Nan::imp::ToFactory<bool>::convert(v8::Local<v8::Value>)’:
+222 error ../../nan/nan_converters_43_inl.h:37:55: error: cannot convert ‘v8::Local<v8::Context>’ to ‘v8::Isolate*’
+222 error    37 |   return val->NAME ## Value(isolate->GetCurrentContext());                     \
+222 error       |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+222 error       |                                                       |
+222 error       |                                                       v8::Local<v8::Context>
+222 error ../../nan/nan_converters_43_inl.h:40:1: note: in expansion of macro ‘X’
+222 error    40 | X(bool, Boolean)
+222 error       | ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../../nan/nan.h:51,
+222 error                  from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:2858:30: note:   initializing argument 1 of ‘bool v8::Value::BooleanValue(v8::Isolate*) const’
+222 error  2858 |   bool BooleanValue(Isolate* isolate) const;
+222 error       |                     ~~~~~~~~~^~~~~~~
+222 error In file included from ../../nan/nan_new.h:189,
+222 error                  from ../../nan/nan.h:203,
+222 error                  from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error ../../nan/nan_implementation_12_inl.h: In static member function ‘static Nan::imp::FactoryBase<v8::Function>::return_t Nan::imp::Factory<v8::Function>::New(Nan::FunctionCallback, v8::Local<v8::Value>)’:
+222 error ../../nan/nan_implementation_12_inl.h:103:42: error: cannot convert ‘v8::Isolate*’ to ‘v8::Local<v8::Context>’
+222 error   103 |   return scope.Escape(v8::Function::New( isolate
+222 error       |                                          ^~~~~~~
+222 error       |                                          |
+222 error       |                                          v8::Isolate*
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../../nan/nan.h:51,
+222 error                  from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:4446:22: note:   initializing argument 1 of ‘static v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>, v8::FunctionCallback, v8::Local<v8::Value>, int, v8::ConstructorBehavior, v8::SideEffectType)’
+222 error  4446 |       Local<Context> context, FunctionCallback callback,
+222 error       |       ~~~~~~~~~~~~~~~^~~~~~~
+222 error In file included from ../../nan/nan_new.h:189,
+222 error                  from ../../nan/nan.h:203,
+222 error                  from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error ../../nan/nan_implementation_12_inl.h: In static member function ‘static Nan::imp::FactoryBase<v8::StringObject>::return_t Nan::imp::Factory<v8::StringObject>::New(v8::Local<v8::String>)’:
+222 error ../../nan/nan_implementation_12_inl.h:337:37: error: no matching function for call to ‘v8::StringObject::New(v8::Local<v8::String>&)’
+222 error   337 |   return v8::StringObject::New(value).As<v8::StringObject>();
+222 error       |                                     ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../../nan/nan.h:51,
+222 error                  from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:5854:23: note: candidate: ‘static v8::Local<v8::Value> v8::StringObject::New(v8::Isolate*, v8::Local<v8::String>)’
+222 error  5854 |   static Local<Value> New(Isolate* isolate, Local<String> value);
+222 error       |                       ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:5854:23: note:   candidate expects 2 arguments, 1 provided
+222 error In file included from ../../nan/nan_new.h:189,
+222 error                  from ../../nan/nan.h:203,
+222 error                  from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error ../../nan/nan_implementation_12_inl.h:337:58: error: expected primary-expression before ‘>’ token
+222 error   337 |   return v8::StringObject::New(value).As<v8::StringObject>();
+222 error       |                                                          ^
+222 error ../../nan/nan_implementation_12_inl.h:337:60: error: expected primary-expression before ‘)’ token
+222 error   337 |   return v8::StringObject::New(value).As<v8::StringObject>();
+222 error       |                                                            ^
+222 error In file included from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error ../../nan/nan.h: In constructor ‘Nan::Utf8String::Utf8String(v8::Local<v8::Value>)’:
+222 error ../../nan/nan.h:1034:53: error: no matching function for call to ‘v8::Value::ToString()’
+222 error  1034 |       v8::Local<v8::String> string = from->ToString();
+222 error       |                                                     ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../../nan/nan.h:51,
+222 error                  from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:2810:44: note: candidate: ‘v8::MaybeLocal<v8::String> v8::Value::ToString(v8::Local<v8::Context>) const’
+222 error  2810 |   V8_WARN_UNUSED_RESULT MaybeLocal<String> ToString(
+222 error       |                                            ^~~~~~~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:2810:44: note:   candidate expects 1 argument, 0 provided
+222 error In file included from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error ../../nan/nan.h:1044:37: error: cannot convert ‘char*’ to ‘v8::Isolate*’
+222 error  1044 |         length_ = string->WriteUtf8(str_, static_cast<int>(len), 0, flags);
+222 error       |                                     ^~~~
+222 error       |                                     |
+222 error       |                                     char*
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../../nan/nan.h:51,
+222 error                  from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3037:26: note:   initializing argument 1 of ‘int v8::String::WriteUtf8(v8::Isolate*, char*, int, int*, int) const’
+222 error  3037 |   int WriteUtf8(Isolate* isolate, char* buffer, int length = -1,
+222 error       |                 ~~~~~~~~~^~~~~~~
+222 error In file included from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error ../../nan/nan.h: In member function ‘void Nan::AsyncWorker::SaveToPersistent(const char*, const v8::Local<v8::Value>&)’:
+222 error ../../nan/nan.h:1818:64: error: no matching function for call to ‘v8::Object::Set(v8::Local<v8::String>, const v8::Local<v8::Value>&)’
+222 error  1818 |     New(persistentHandle)->Set(New(key).ToLocalChecked(), value);
+222 error       |                                                                ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../../nan/nan.h:51,
+222 error                  from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3670:37: note: candidate: ‘v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, v8::Local<v8::Value>, v8::Local<v8::Value>)’
+222 error  3670 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+222 error       |                                     ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3670:37: note:   candidate expects 3 arguments, 2 provided
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3673:37: note: candidate: ‘v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, uint32_t, v8::Local<v8::Value>)’
+222 error  3673 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+222 error       |                                     ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3673:37: note:   candidate expects 3 arguments, 2 provided
+222 error In file included from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error ../../nan/nan.h: In member function ‘void Nan::AsyncWorker::SaveToPersistent(const v8::Local<v8::String>&, const v8::Local<v8::Value>&)’:
+222 error ../../nan/nan.h:1824:42: error: no matching function for call to ‘v8::Object::Set(const v8::Local<v8::String>&, const v8::Local<v8::Value>&)’
+222 error  1824 |     New(persistentHandle)->Set(key, value);
+222 error       |                                          ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../../nan/nan.h:51,
+222 error                  from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3670:37: note: candidate: ‘v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, v8::Local<v8::Value>, v8::Local<v8::Value>)’
+222 error  3670 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+222 error       |                                     ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3670:37: note:   candidate expects 3 arguments, 2 provided
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3673:37: note: candidate: ‘v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, uint32_t, v8::Local<v8::Value>)’
+222 error  3673 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+222 error       |                                     ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3673:37: note:   candidate expects 3 arguments, 2 provided
+222 error In file included from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error ../../nan/nan.h: In member function ‘void Nan::AsyncWorker::SaveToPersistent(uint32_t, const v8::Local<v8::Value>&)’:
+222 error ../../nan/nan.h:1830:44: error: no matching function for call to ‘v8::Object::Set(uint32_t&, const v8::Local<v8::Value>&)’
+222 error  1830 |     New(persistentHandle)->Set(index, value);
+222 error       |                                            ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../../nan/nan.h:51,
+222 error                  from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3670:37: note: candidate: ‘v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, v8::Local<v8::Value>, v8::Local<v8::Value>)’
+222 error  3670 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context,
+222 error       |                                     ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3670:37: note:   candidate expects 3 arguments, 2 provided
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3673:37: note: candidate: ‘v8::Maybe<bool> v8::Object::Set(v8::Local<v8::Context>, uint32_t, v8::Local<v8::Value>)’
+222 error  3673 |   V8_WARN_UNUSED_RESULT Maybe<bool> Set(Local<Context> context, uint32_t index,
+222 error       |                                     ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3673:37: note:   candidate expects 3 arguments, 2 provided
+222 error In file included from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error ../../nan/nan.h: In member function ‘v8::Local<v8::Value> Nan::AsyncWorker::GetFromPersistent(const char*) const’:
+222 error ../../nan/nan.h:1836:61: error: no matching function for call to ‘v8::Object::Get(v8::Local<v8::String>)’
+222 error  1836 |         New(persistentHandle)->Get(New(key).ToLocalChecked()));
+222 error       |                                                             ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../../nan/nan.h:51,
+222 error                  from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3717:43: note: candidate: ‘v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)’
+222 error  3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+222 error       |                                           ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3720:43: note: candidate: ‘v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)’
+222 error  3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+222 error       |                                           ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+222 error In file included from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error ../../nan/nan.h: In member function ‘v8::Local<v8::Value> Nan::AsyncWorker::GetFromPersistent(const v8::Local<v8::String>&) const’:
+222 error ../../nan/nan.h:1842:55: error: no matching function for call to ‘v8::Object::Get(const v8::Local<v8::String>&)’
+222 error  1842 |     return scope.Escape(New(persistentHandle)->Get(key));
+222 error       |                                                       ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../../nan/nan.h:51,
+222 error                  from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3717:43: note: candidate: ‘v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)’
+222 error  3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+222 error       |                                           ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3720:43: note: candidate: ‘v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)’
+222 error  3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+222 error       |                                           ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+222 error In file included from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error ../../nan/nan.h: In member function ‘v8::Local<v8::Value> Nan::AsyncWorker::GetFromPersistent(uint32_t) const’:
+222 error ../../nan/nan.h:1847:57: error: no matching function for call to ‘v8::Object::Get(uint32_t&)’
+222 error  1847 |     return scope.Escape(New(persistentHandle)->Get(index));
+222 error       |                                                         ^
+222 error In file included from /home/ali/.cache/node-gyp/14.15.4/include/node/node.h:67,
+222 error                  from ../../nan/nan.h:51,
+222 error                  from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3717:43: note: candidate: ‘v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, v8::Local<v8::Value>)’
+222 error  3717 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+222 error       |                                           ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3717:43: note:   candidate expects 2 arguments, 1 provided
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3720:43: note: candidate: ‘v8::MaybeLocal<v8::Value> v8::Object::Get(v8::Local<v8::Context>, uint32_t)’
+222 error  3720 |   V8_WARN_UNUSED_RESULT MaybeLocal<Value> Get(Local<Context> context,
+222 error       |                                           ^~~
+222 error /home/ali/.cache/node-gyp/14.15.4/include/node/v8.h:3720:43: note:   candidate expects 2 arguments, 1 provided
+222 error In file included from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error ../../nan/nan.h: In function ‘void Nan::AsyncQueueWorker(Nan::AsyncWorker*)’:
+222 error ../../nan/nan.h:2167:62: warning: cast between incompatible function types from ‘void (*)(uv_work_t*)’ {aka ‘void (*)(uv_work_s*)’} to ‘uv_after_work_cb’ {aka ‘void (*)(uv_work_s*, int)’} [-Wcast-function-type]
+222 error  2167 |     , reinterpret_cast<uv_after_work_cb>(AsyncExecuteComplete)
+222 error       |                                                              ^
+222 error In file included from /usr/include/c++/9/cassert:44,
+222 error                  from /home/ali/.cache/node-gyp/14.15.4/include/node/node_object_wrap.h:26,
+222 error                  from ../../nan/nan.h:53,
+222 error                  from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error ../../nan/nan_object_wrap.h: In destructor ‘virtual Nan::ObjectWrap::~ObjectWrap()’:
+222 error ../../nan/nan_object_wrap.h:24:25: error: ‘class Nan::Persistent<v8::Object>’ has no member named ‘IsNearDeath’
+222 error    24 |     assert(persistent().IsNearDeath());
+222 error       |                         ^~~~~~~~~~~
+222 error In file included from ../../nan/nan.h:2657,
+222 error                  from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error ../../nan/nan_object_wrap.h: In member function ‘void Nan::ObjectWrap::MakeWeak()’:
+222 error ../../nan/nan_object_wrap.h:67:18: error: ‘class Nan::Persistent<v8::Object>’ has no member named ‘MarkIndependent’
+222 error    67 |     persistent().MarkIndependent();
+222 error       |                  ^~~~~~~~~~~~~~~
+222 error In file included from /usr/include/c++/9/cassert:44,
+222 error                  from /home/ali/.cache/node-gyp/14.15.4/include/node/node_object_wrap.h:26,
+222 error                  from ../../nan/nan.h:53,
+222 error                  from ../src/node-boilerplate/scrypt_common.cc:28:
+222 error ../../nan/nan_object_wrap.h: In static member function ‘static void Nan::ObjectWrap::WeakCallback(const v8::WeakCallbackInfo<Nan::ObjectWrap>&)’:
+222 error ../../nan/nan_object_wrap.h:124:26: error: ‘class Nan::Persistent<v8::Object>’ has no member named ‘IsNearDeath’
+222 error   124 |     assert(wrap->handle_.IsNearDeath());
+222 error       |                          ^~~~~~~~~~~
+222 error make: *** [scrypt.target.mk:131: Release/obj.target/scrypt/src/node-boilerplate/scrypt_common.o] Error 1
+222 error gyp ERR! build error
+222 error gyp ERR! stack Error: `make` failed with exit code: 2
+222 error gyp ERR! stack     at ChildProcess.onExit (/home/ali/.nvm/versions/node/v14.15.4/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:194:23)
+222 error gyp ERR! stack     at ChildProcess.emit (events.js:315:20)
+222 error gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:277:12)
+222 error gyp ERR! System Linux 4.19.128-microsoft-standard
+222 error gyp ERR! command "/home/ali/.nvm/versions/node/v14.15.4/bin/node" "/home/ali/.nvm/versions/node/v14.15.4/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+222 error gyp ERR! cwd /home/ali/asure-dapp/packages/smartcontracts/node_modules/scrypt
+222 error gyp ERR! node -v v14.15.4
+222 error gyp ERR! node-gyp -v v5.1.0
+222 error gyp ERR! not ok
+222 error npm WARN smartcontracts No repository field.
+222 error npm WARN smartcontracts No license field.
+222 error
+222 error npm ERR! code ELIFECYCLE
+222 error npm ERR! errno 1
+222 error npm ERR! scrypt@6.0.3 install: `node-gyp rebuild`
+222 error npm ERR! Exit status 1
+222 error npm ERR!
+222 error npm ERR! Failed at the scrypt@6.0.3 install script.
+222 error npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+222 error
+222 error npm ERR! A complete log of this run can be found in:
+222 error npm ERR!     /home/ali/.npm/_logs/2021-03-09T13_59_54_170Z-debug.log
+222 error
+222 error > scrypt@6.0.3 preinstall /home/ali/asure-dapp/packages/smartcontracts/node_modules/scrypt
+222 error > node node-scrypt-preinstall.js
+222 error
+222 error
+222 error > keccak@1.4.0 install /home/ali/asure-dapp/packages/smartcontracts/node_modules/keccak
+222 error > npm run rebuild || echo "Keccak bindings compilation fail. Pure JS implementation will be used."
+222 error
+222 error
+222 error > keccak@1.4.0 rebuild /home/ali/asure-dapp/packages/smartcontracts/node_modules/keccak
+222 error > node-gyp rebuild
+222 error
+222 error make: Entering directory '/home/ali/asure-dapp/packages/smartcontracts/node_modules/keccak/build'
+222 error   CXX(target) Release/obj.target/keccak/src/addon.o
+222 error make: Leaving directory '/home/ali/asure-dapp/packages/smartcontracts/node_modules/keccak/build'
+222 error Keccak bindings compilation fail. Pure JS implementation will be used.
+222 error
+222 error > scrypt@6.0.3 install /home/ali/asure-dapp/packages/smartcontracts/node_modules/scrypt
+222 error > node-gyp rebuild
+222 error
+222 error make: Entering directory '/home/ali/asure-dapp/packages/smartcontracts/node_modules/scrypt/build'
+222 error   SOLINK_MODULE(target) Release/obj.target/copied_files.node
+222 error   COPY Release/copied_files.node
+222 error   CC(target) Release/obj.target/scrypt_wrapper/src/util/memlimit.o
+222 error   CC(target) Release/obj.target/scrypt_wrapper/src/scryptwrapper/keyderivation.o
+222 error   CC(target) Release/obj.target/scrypt_wrapper/src/scryptwrapper/pickparams.o
+222 error   CC(target) Release/obj.target/scrypt_wrapper/src/scryptwrapper/hash.o
+222 error   AR(target) Release/obj.target/scrypt_wrapper.a
+222 error   COPY Release/scrypt_wrapper.a
+222 error   CC(target) Release/obj.target/scrypt_lib/scrypt/scrypt-1.2.0/lib/crypto/crypto_scrypt.o
+222 error   CC(target) Release/obj.target/scrypt_lib/scrypt/scrypt-1.2.0/lib/crypto/crypto_scrypt_smix.o
+222 error   CC(target) Release/obj.target/scrypt_lib/scrypt/scrypt-1.2.0/libcperciva/util/warnp.o
+222 error   CC(target) Release/obj.target/scrypt_lib/scrypt/scrypt-1.2.0/libcperciva/alg/sha256.o
+222 error   CC(target) Release/obj.target/scrypt_lib/scrypt/scrypt-1.2.0/libcperciva/util/insecure_memzero.o
+222 error   CC(target) Release/obj.target/scrypt_lib/scrypt/scrypt-1.2.0/lib/scryptenc/scryptenc_cpuperf.o
+222 error   AR(target) Release/obj.target/scrypt_lib.a
+222 error   COPY Release/scrypt_lib.a
+222 error   CXX(target) Release/obj.target/scrypt/src/node-boilerplate/scrypt_common.o
+222 error make: Leaving directory '/home/ali/asure-dapp/packages/smartcontracts/node_modules/scrypt/build'
+222 error
+222 error     at /home/ali/asure-dapp/node_modules/execa/index.js:236:11
+222 error     at runMicrotasks (<anonymous>)
