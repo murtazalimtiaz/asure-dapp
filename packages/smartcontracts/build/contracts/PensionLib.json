@@ -1,0 +1,493 @@
+{
+  "contractName": "PensionLib",
+  "abi": [],
+  "bytecode": "0x604c602c600b82828239805160001a60731460008114601c57601e565bfe5b5030600052607381538281f30073000000000000000000000000000000000000000030146080604052600080fd00a165627a7a723058209833f6d628ee2988efcdf9d478fbd217142333ccc0993603823cdb22674d80450029",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fd00a165627a7a723058209833f6d628ee2988efcdf9d478fbd217142333ccc0993603823cdb22674d80450029",
+  "sourceMap": "26:648:4:-;;132:2:-1;166:7;155:9;146:7;137:37;252:7;246:14;243:1;238:23;232:4;229:33;270:1;265:20;;;;222:63;;265:20;274:9;222:63;;298:9;295:1;288:20;328:4;319:7;311:22;352:7;343;336:24",
+  "deployedSourceMap": "26:648:4:-;;;;;;;;",
+  "source": "pragma solidity ^0.4.23;\n\nlibrary PensionLib {\n  enum ContractType {\n    PensionPoints,\n    PensionSettings,\n    PensionUsers,\n    Pension,\n    PensionWallet\n  }\n\n  enum PensionType {\n    Default //Renten wegen Alters\n    /*\n    Renten wegen Alters\t1,0\n    Renten wegen voller Erwerbsminderung\t1,0\n    Erziehungsrenten\t1,0\n    große Witwenrente\t0,55\n    Renten wegen teilweiser Erwerbsminderung\t0,5\n    kleine Witwenrente\t0,25\n    Vollwaisenrente\t0,2\n    Halbwaisenrente\t0,1\n    */\n  }\n\n  struct UserData {\n    int256 birthDate; // unix timestamp\n    uint256 pensionDate; // unix timestamp\n    bool isPensioner;\n    PensionType pensionType;\n    uint256 listPointer;\n  }\n\n\n}\n",
+  "sourcePath": "/home/ali/insurance2/asure-dapp/packages/smartcontracts/contracts/PensionLib.sol",
+  "ast": {
+    "absolutePath": "/home/ali/insurance2/asure-dapp/packages/smartcontracts/contracts/PensionLib.sol",
+    "exportedSymbols": {
+      "PensionLib": [
+        1223
+      ]
+    },
+    "id": 1224,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1203,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".23"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:4"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "library",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1223,
+        "linearizedBaseContracts": [
+          1223
+        ],
+        "name": "PensionLib",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "PensionLib.ContractType",
+            "id": 1209,
+            "members": [
+              {
+                "id": 1204,
+                "name": "PensionPoints",
+                "nodeType": "EnumValue",
+                "src": "73:13:4"
+              },
+              {
+                "id": 1205,
+                "name": "PensionSettings",
+                "nodeType": "EnumValue",
+                "src": "92:15:4"
+              },
+              {
+                "id": 1206,
+                "name": "PensionUsers",
+                "nodeType": "EnumValue",
+                "src": "113:12:4"
+              },
+              {
+                "id": 1207,
+                "name": "Pension",
+                "nodeType": "EnumValue",
+                "src": "131:7:4"
+              },
+              {
+                "id": 1208,
+                "name": "PensionWallet",
+                "nodeType": "EnumValue",
+                "src": "144:13:4"
+              }
+            ],
+            "name": "ContractType",
+            "nodeType": "EnumDefinition",
+            "src": "49:112:4"
+          },
+          {
+            "canonicalName": "PensionLib.PensionType",
+            "id": 1211,
+            "members": [
+              {
+                "id": 1210,
+                "name": "Default",
+                "nodeType": "EnumValue",
+                "src": "188:7:4"
+              }
+            ],
+            "name": "PensionType",
+            "nodeType": "EnumDefinition",
+            "src": "165:321:4"
+          },
+          {
+            "canonicalName": "PensionLib.UserData",
+            "id": 1222,
+            "members": [
+              {
+                "constant": false,
+                "id": 1213,
+                "name": "birthDate",
+                "nodeType": "VariableDeclaration",
+                "scope": 1222,
+                "src": "512:16:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_int256",
+                  "typeString": "int256"
+                },
+                "typeName": {
+                  "id": 1212,
+                  "name": "int256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "512:6:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1215,
+                "name": "pensionDate",
+                "nodeType": "VariableDeclaration",
+                "scope": 1222,
+                "src": "552:19:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1214,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "552:7:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1217,
+                "name": "isPensioner",
+                "nodeType": "VariableDeclaration",
+                "scope": 1222,
+                "src": "595:16:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 1216,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "595:4:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1219,
+                "name": "pensionType",
+                "nodeType": "VariableDeclaration",
+                "scope": 1222,
+                "src": "617:23:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_enum$_PensionType_$1211",
+                  "typeString": "enum PensionLib.PensionType"
+                },
+                "typeName": {
+                  "contractScope": null,
+                  "id": 1218,
+                  "name": "PensionType",
+                  "nodeType": "UserDefinedTypeName",
+                  "referencedDeclaration": 1211,
+                  "src": "617:11:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_PensionType_$1211",
+                    "typeString": "enum PensionLib.PensionType"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1221,
+                "name": "listPointer",
+                "nodeType": "VariableDeclaration",
+                "scope": 1222,
+                "src": "646:19:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1220,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "646:7:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "UserData",
+            "nodeType": "StructDefinition",
+            "scope": 1223,
+            "src": "490:180:4",
+            "visibility": "public"
+          }
+        ],
+        "scope": 1224,
+        "src": "26:648:4"
+      }
+    ],
+    "src": "0:675:4"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/ali/insurance2/asure-dapp/packages/smartcontracts/contracts/PensionLib.sol",
+    "exportedSymbols": {
+      "PensionLib": [
+        1223
+      ]
+    },
+    "id": 1224,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1203,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".23"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:4"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "library",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1223,
+        "linearizedBaseContracts": [
+          1223
+        ],
+        "name": "PensionLib",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "PensionLib.ContractType",
+            "id": 1209,
+            "members": [
+              {
+                "id": 1204,
+                "name": "PensionPoints",
+                "nodeType": "EnumValue",
+                "src": "73:13:4"
+              },
+              {
+                "id": 1205,
+                "name": "PensionSettings",
+                "nodeType": "EnumValue",
+                "src": "92:15:4"
+              },
+              {
+                "id": 1206,
+                "name": "PensionUsers",
+                "nodeType": "EnumValue",
+                "src": "113:12:4"
+              },
+              {
+                "id": 1207,
+                "name": "Pension",
+                "nodeType": "EnumValue",
+                "src": "131:7:4"
+              },
+              {
+                "id": 1208,
+                "name": "PensionWallet",
+                "nodeType": "EnumValue",
+                "src": "144:13:4"
+              }
+            ],
+            "name": "ContractType",
+            "nodeType": "EnumDefinition",
+            "src": "49:112:4"
+          },
+          {
+            "canonicalName": "PensionLib.PensionType",
+            "id": 1211,
+            "members": [
+              {
+                "id": 1210,
+                "name": "Default",
+                "nodeType": "EnumValue",
+                "src": "188:7:4"
+              }
+            ],
+            "name": "PensionType",
+            "nodeType": "EnumDefinition",
+            "src": "165:321:4"
+          },
+          {
+            "canonicalName": "PensionLib.UserData",
+            "id": 1222,
+            "members": [
+              {
+                "constant": false,
+                "id": 1213,
+                "name": "birthDate",
+                "nodeType": "VariableDeclaration",
+                "scope": 1222,
+                "src": "512:16:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_int256",
+                  "typeString": "int256"
+                },
+                "typeName": {
+                  "id": 1212,
+                  "name": "int256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "512:6:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_int256",
+                    "typeString": "int256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1215,
+                "name": "pensionDate",
+                "nodeType": "VariableDeclaration",
+                "scope": 1222,
+                "src": "552:19:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1214,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "552:7:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1217,
+                "name": "isPensioner",
+                "nodeType": "VariableDeclaration",
+                "scope": 1222,
+                "src": "595:16:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 1216,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "595:4:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1219,
+                "name": "pensionType",
+                "nodeType": "VariableDeclaration",
+                "scope": 1222,
+                "src": "617:23:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_enum$_PensionType_$1211",
+                  "typeString": "enum PensionLib.PensionType"
+                },
+                "typeName": {
+                  "contractScope": null,
+                  "id": 1218,
+                  "name": "PensionType",
+                  "nodeType": "UserDefinedTypeName",
+                  "referencedDeclaration": 1211,
+                  "src": "617:11:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_PensionType_$1211",
+                    "typeString": "enum PensionLib.PensionType"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1221,
+                "name": "listPointer",
+                "nodeType": "VariableDeclaration",
+                "scope": 1222,
+                "src": "646:19:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1220,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "646:7:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "UserData",
+            "nodeType": "StructDefinition",
+            "scope": 1223,
+            "src": "490:180:4",
+            "visibility": "public"
+          }
+        ],
+        "scope": 1224,
+        "src": "26:648:4"
+      }
+    ],
+    "src": "0:675:4"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.0-beta.0",
+  "updatedAt": "2021-03-15T06:42:00.659Z"
+}

@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "smartcontracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "dotenv": "^6.0.0",
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.0.0-beta.0",
+    "truffle-hdwallet-provider": "^1.0.0-web3one.0",
+    "cors": "^2.8.5"
+  },
+  "scripts": {
+    "start": "npm run ganache-ext",
+    "build": "truffle compile",
+    "migrate-dev": "truffle migrate --reset",
+    "migrate-rinkeby": "truffle migrate --reset --network rinkeby",
+    "test": "truffle test",
+    "test-integration": "truffle test ./test-integration/integration.js",
+    "test-all": "truffle test && truffle test ./test-integration/integration.js",
+    "ganache": "node ./scripts/ganache.js",
+    "ganache-ext": "node ./scripts/ganache.js --migrate --deploy-test-data  --networkid localhost --rpc --rpcport 8545 --rpcaddr localhost --rpccorsdomain * --rpcapi eth,web3"
+  },
+  "keywords": [],
+  "author": "Asure Foundation <info@asure.io>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv-expand": "^4.2.0",
+    "openzeppelin-solidity": "^1.11.0"
+  }
+}
