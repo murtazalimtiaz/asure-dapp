@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "german-pension",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "start-smartcontracts": "npm run --prefix packages/smartcontracts start",
+    "start-dapp": "npm run --prefix packages/dapp start",
+    "format": "pretty-quick",
+    "build": "lerna run build",
+    "deploy": "gh-pages -d packages/dapp/build",
+    "postinstall": "npm run bootstrap",
+    "precommit": "pretty-quick --staged",
+    "postcommit": "git update-index --again"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AsureFoundation/asure-dapp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "husky": "^0.14.3",
+    "lerna": "^2.11.0",
+    "prettier": "^1.13.7",
+    "pretty-quick": "^1.6.0"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "dependencies": {}
+}
